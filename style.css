@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.header {
+.aside {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header img {
+.aside img {
   width: 100%;
 }
 
-.header .more-inf {
+.aside .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header {
+  .aside {
     text-align: center;
   }
 }
@@ -48,7 +48,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -72,7 +72,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+h2,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -168,4 +168,10 @@ ul .edit-mode input[type=text] {
 
 ul .edit-mode label {
   display: none;
+}
+
+/* New */
+
+h1 {
+  font-size: 0;
 }
