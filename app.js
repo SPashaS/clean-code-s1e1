@@ -38,6 +38,7 @@ var createNewTaskElement = function (taskString) {
   editButton.className = "list-item__edit btn";
   deleteButton.className = "list-item__delete btn";
   deleteButtonImg.src = "./remove.svg";
+  deleteButtonImg.alt = "Delete task";
   deleteButton.appendChild(deleteButtonImg);
   //and appending.
   listItem.appendChild(checkBox);
